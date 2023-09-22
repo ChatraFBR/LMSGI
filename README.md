@@ -11,4 +11,4 @@ en este repositorio vamos a almacenar todos los ejercicios del modulo
 -casa
 -dedo
 
-[https://youtu.be/mCdA4bJAGGk?si=L4JM_WkFB_wmNv3L]
+(https://youtu.be/mCdA4bJAGGk?si=L4JM_WkFB_wmNv3L)
