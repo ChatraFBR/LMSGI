@@ -19,3 +19,20 @@ https://youtu.be/mCdA4bJAGGk?si=L4JM_WkFB_wmNv3L
 
 ![image](https://github.com/ChatraFBR/LMSGI/assets/145746915/aaf0f28f-7420-4149-a8b6-5d3dff1fc7b2)    ![image](https://github.com/ChatraFBR/LMSGI/assets/145746915/3ccdca55-92e9-45bb-955f-a681c5f9c0b6)
 
+|parte de la cancion|puntuacion|
+|--------|------|
+|--------|------|
+|--------|------|
+|--------|------|
+|--------|------|
+|--------|------|
+
+`codigo fuente`
+
+
+linia del nano la linea 33 ![image](https://github.com/ChatraFBR/LMSGI/assets/145746915/20354ae9-a840-4392-8941-db4ae04b50e8)
+https://www.letras.com/melendi/1126832/ 
+
+El Nano es buena gente, es un tío enrollao'
+
+Y dentro del circuito es el que parte el bacalao
