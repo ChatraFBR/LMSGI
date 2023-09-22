@@ -14,4 +14,4 @@ en este repositorio vamos a almacenar todos los ejercicios del modulo
 (https://youtu.be/mCdA4bJAGGk?si=L4JM_WkFB_wmNv3L)
 
 
-![hola](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fsearch%2Frick-roll-gifs&psig=AOvVaw1L59RtNbIRtnnP8tpXeLd8&ust=1695453245479000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPjvuNXVvYEDFQAAAAAdAAAAABAE)
+![image](https://github.com/ChatraFBR/LMSGI/assets/145746915/aaf0f28f-7420-4149-a8b6-5d3dff1fc7b2)
