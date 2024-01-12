@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .cabecera {
+            width: 100%;
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .contenido {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .izquierda {
+            flex: 20%;
+            background-color: #e9ecef;
+            padding: 20px;
+        }
+
+        .derecha {
+            flex: 80%;
+            background-color: #fff;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cabecera">
+        <h1>DERBY</h1>
+
+        <button onclick="document.location='default.asp'">inicio</button>
+        <button onclick="document.location='default.asp'">Barcelona FC</button>
+        <button onclick="document.location='default.asp'">Real Madrid</button>
+
+    </div>
+    <div class="contenido">
+        <div class="izquierda">
+            <p>Contenido de la izquierda...</p>
+        </div>
+        <div class="derecha">
+            <p>Contenido de la derecha...</p>
+        </div>
+    </div>
+</body>
+
+</html>
