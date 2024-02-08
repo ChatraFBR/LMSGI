@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #666769;
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.2rem;
+  min-height: 100%;
+}
+.grid-item{
+  display: flex;
+
+}
+
+
+.grid-container>* {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-item:hover{
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-rows: dense;
+
+}
+
+@media(min-width: 600){
+  .wide{
+    grid-column: span 2;
+  }
+}
