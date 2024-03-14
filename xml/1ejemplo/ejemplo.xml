@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="ejemplo.xsd">
+    <libro isbn="1881515135">
+        <titulo>Los pilares de la tierra</titulo>
+        <autor>ken follet </autor>
+        <editorial codigo="abyv">"plaza y janes"</editorial>
+        <precio>30.51</precio>
+        <tapa>dura</tapa>
+
+    </libro>
+   
+
+
+</biblioteca>

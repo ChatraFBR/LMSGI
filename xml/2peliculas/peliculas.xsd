@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="CatalogoPeliculas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Pelicula" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Titulo" type="Tipo_Titulo" />
+                            <xs:element name="Duracion" type="Tipo_Duracion" />
+                            <xs:element name="Genero" type="Tipo_Genero" />
+                            <xs:element name="Actores" maxOccurs="3" />
+                            <xs:element name="Fecha" type="Tipo_Fecha" />
+                            <xs:element name="Director" type="xs:string" />
+                            <xs:element name="Formato" type="Tipo_Formato" />
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="Tipo_Titulo">
+        <xs:restriction base="xs:string">
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Tipo_Duracion">
+        <xs:restriction base="xs:int">
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Tipo_Genero">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Drama|Comedia|Terror|Thriller|Sci-Fi and Fantasy" />
+
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Tipo_Fecha">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="1900" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Tipo_Formato">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="DVD|VHS" />
+
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

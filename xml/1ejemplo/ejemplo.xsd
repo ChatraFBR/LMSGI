@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="biblioteca">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="libro" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="titulo" type="xs:string" />
+							<xs:element name="autor" type="xs:string" />
+							<xs:element name="editorial" type="tipo_editorial2" />
+							<xs:element name="precio" type="tipo_precio" />
+							<xs:element name="tapa" type="tipo_tapa2" />
+						</xs:sequence>
+						<xs:attribute name="isbn" type="tipo_isbn" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="tipo_precio">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0" />
+			<xs:maxInclusive value="120" />
+			<xs:totalDigits value="4" />
+			<xs:fractionDigits value="2" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="tipo_tapa1">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="dura" />
+			<xs:enumeration value="blanda2" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="tipo_tapa2">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="dura|blanda" />
+
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="tipo_editorial">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="3" />
+			<xs:maxLength value="50" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="tipo_editorial2">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="codigo" type="xs:positiveInteger" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:simpleType name="tipo_isbn">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="([0-9]){10}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>	
