@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="curriculum" type="T_curriculum">
+
+    </xs:element>
+        <xs:complexType name="T_curriculum">
+            <xs:sequence>
+                <xs:element name="datosPersonales">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="apellidos" type="xs:string" />
+                            <xs:element name="fechaNacimiento" type="xs:date" />
+                            <xs:element name="lugarNacimiento" type="xs:string" />
+                            <xs:element name="nacionalidades" type="xs:string" />
+                            <xs:element name="numeroIdentificacion" type="xs:string" />
+                            <xs:element name="foto" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+</xs:schema>
