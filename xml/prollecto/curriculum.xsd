@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="curriculum" type="T_curriculum">
 
-    </xs:element>
-        <xs:complexType name="T_curriculum">
+    <xs:element name="curriculums">
+        <xs:complexType>
             <xs:sequence>
-                <xs:element name="datosPersonales">
+                <xs:element name="curriculum" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="nombre" type="xs:string" />
-                            <xs:element name="apellidos" type="xs:string" />
-                            <xs:element name="fechaNacimiento" type="xs:date" />
-                            <xs:element name="lugarNacimiento" type="xs:string" />
-                            <xs:element name="nacionalidades" type="xs:string" />
-                            <xs:element name="numeroIdentificacion" type="xs:string" />
-                            <xs:element name="foto" type="xs:string" />
+                            <xs:element name="dni" type="xs:string" />
+                            <xs:element name="telefono" type="xs:string" />
+                            <xs:element name="correo" type="xs:string" />
+                            <xs:element name="formacion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titulo" type="xs:string" />
+                                        <xs:element name="cursoAcademico" type="xs:string" />
+                                        <xs:element name="cursoNoOficial" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="carnetConducir" type="xs:string" />
+                            <xs:element name="vehiculoPropio" type="xs:string" />
+                            <xs:element name="disponibilidadGeografica" type="xs:string" />
+                            <xs:element name="experienciaLaboral" type="xs:string" />
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
+    </xs:element>
 </xs:schema>

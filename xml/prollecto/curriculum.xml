@@ -1,36 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<curriculum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:noNamespaceSchemaLocation="curriculum.xsd">
-
-  <emision>2012-02-28T08:25:02</emision>
-  <vendedor id="12">
-    <nombre>Felipe Cuesta Pérez</nombre>
-  </vendedor>
-  <cliente id="9878">
-    <nombre>Raquel Rengo Suárez</nombre>
-    <direccion>
-      <via>Calle Alonso Cano, 2, 3º A</via>
-      <cp>41700</cp>
-      <localidad>Dos Hermanas</localidad>
-      <provincia>Sevilla</provincia>
-    </direccion>
-    <telefono num="666111666" />
-    <telefono num="954666111" />
-  </cliente>
-  <articulo id="121" iva="18">
-    <denominacion>Silla giratoria modelo C-121</denominacion>
-    <precio>98.23</precio>
-    <cantidad>1</cantidad>
-  </articulo>
-  <articulo id="9341" iva="18">
-    <denominacion>Mesa estudio 120x80 haya modelo A2-456-X</denominacion>
-    <precio>193.23</precio>
-    <cantidad>1</cantidad>
-  </articulo>
-  <articulo id="1124" iva="18">
-    <denominacion>Lámpara mesa con pantalla naranja modelo AK-987</denominacion>
-    <precio>23.12</precio>
-    <cantidad>2</cantidad>
-  </articulo>
-  <descuento>20</descuento>
-</curriculum>
+<?xml version="1.0" encoding="utf-8"?>
+<curriculums xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="curriculum.xsd">
+  <curriculum>
+    <nombre>Juan Perez</nombre>
+    <dni>12345678A</dni>
+    <telefono>666111222</telefono>
+    <correo>juan.perez@example.com</correo>
+    <formacion>
+      <titulo>Ingenieria Informatica</titulo>
+      <cursoAcademico>Curso de Java</cursoAcademico>
+      <cursoNoOficial>Curso de Cocina</cursoNoOficial>
+    </formacion>
+    <carnetConducir>Si</carnetConducir>
+    <vehiculoPropio>Si</vehiculoPropio>
+    <disponibilidadGeografica>Nacional</disponibilidadGeografica>
+    <experienciaLaboral>Desarrollador en Google</experienciaLaboral>
+  </curriculum>
+  <curriculum>
+    <nombre>Maria Lopez</nombre>
+    <dni>87654321B</dni>
+    <telefono>666222333</telefono>
+    <correo>maria.lopez@example.com</correo>
+    <formacion>
+      <titulo>Grado en Matematicas</titulo>
+      <cursoAcademico>Curso de Estadistica</cursoAcademico>
+      <cursoNoOficial>Curso de Fotografia</cursoNoOficial>
+    </formacion>
+    <carnetConducir>No</carnetConducir>
+    <vehiculoPropio>No</vehiculoPropio>
+    <disponibilidadGeografica>Internacional</disponibilidadGeografica>
+    <experienciaLaboral>Analista en IBM</experienciaLaboral>
+  </curriculum>
+  <curriculum>
+    <nombre>Carlos Gomez</nombre>
+    <dni>11223344C</dni>
+    <telefono>666333444</telefono>
+    <correo>carlos.gomez@example.com</correo>
+    <formacion>
+      <titulo>Grado en Fisica</titulo>
+      <cursoAcademico>Curso de Mecanica Cuantica</cursoAcademico>
+      <cursoNoOficial>Curso de Ajedrez</cursoNoOficial>
+    </formacion>
+    <carnetConducir>Si</carnetConducir>
+    <vehiculoPropio>Si</vehiculoPropio>
+    <disponibilidadGeografica>Local</disponibilidadGeografica>
+    <experienciaLaboral>Investigador en CSIC</experienciaLaboral>
+  </curriculum>
+</curriculums>
