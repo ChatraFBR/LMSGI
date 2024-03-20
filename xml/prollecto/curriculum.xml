@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <curriculums xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="curriculum.xsd">
-  <curriculum>
+  <curriculum id="12345678A" vehiculoPropio="Si" disponibilidadGeografica="Nacional">
     <nombre>Juan Perez</nombre>
-    <dni>12345678A</dni>
     <telefono>666111222</telefono>
     <correo>juan.perez@example.com</correo>
     <formacion>
@@ -11,13 +10,10 @@
       <cursoNoOficial>Curso de Cocina</cursoNoOficial>
     </formacion>
     <carnetConducir>Si</carnetConducir>
-    <vehiculoPropio>Si</vehiculoPropio>
-    <disponibilidadGeografica>Nacional</disponibilidadGeografica>
     <experienciaLaboral>Desarrollador en Google</experienciaLaboral>
   </curriculum>
-  <curriculum>
+  <curriculum id="87654321B" vehiculoPropio="No" disponibilidadGeografica="Internacional">
     <nombre>Maria Lopez</nombre>
-    <dni>87654321B</dni>
     <telefono>666222333</telefono>
     <correo>maria.lopez@example.com</correo>
     <formacion>
@@ -26,13 +22,10 @@
       <cursoNoOficial>Curso de Fotografia</cursoNoOficial>
     </formacion>
     <carnetConducir>No</carnetConducir>
-    <vehiculoPropio>No</vehiculoPropio>
-    <disponibilidadGeografica>Internacional</disponibilidadGeografica>
     <experienciaLaboral>Analista en IBM</experienciaLaboral>
   </curriculum>
-  <curriculum>
+  <curriculum id="11223344C" vehiculoPropio="Si" disponibilidadGeografica="Local">
     <nombre>Carlos Gomez</nombre>
-    <dni>11223344C</dni>
     <telefono>666333444</telefono>
     <correo>carlos.gomez@example.com</correo>
     <formacion>
@@ -41,8 +34,6 @@
       <cursoNoOficial>Curso de Ajedrez</cursoNoOficial>
     </formacion>
     <carnetConducir>Si</carnetConducir>
-    <vehiculoPropio>Si</vehiculoPropio>
-    <disponibilidadGeografica>Local</disponibilidadGeografica>
     <experienciaLaboral>Investigador en CSIC</experienciaLaboral>
   </curriculum>
 </curriculums>
